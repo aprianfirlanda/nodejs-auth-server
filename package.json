@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-auth-server",
+  "version": "1.0.0",
+  "description": "Back-End Application for Authentication using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprianfirlanda/nodejs-auth-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aprianfirlanda/nodejs-auth-server/issues"
+  },
+  "homepage": "https://github.com/aprianfirlanda/nodejs-auth-server#readme",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "dotenv": "^16.0.3",
+    "joi": "^17.6.3",
+    "nanoid": "^3.3.4",
+    "node-pg-migrate": "^6.2.2",
+    "pg": "^8.8.0"
+  }
+}
