@@ -4,7 +4,9 @@
   "description": "Back-End Application for Authentication using NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src",
+    "migrate": "node-pg-migrate"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,7 @@
   },
   "homepage": "https://github.com/aprianfirlanda/nodejs-auth-server#readme",
   "devDependencies": {
-    "eslint": "^8.25.0",
+    "eslint": "8.22.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.3.0",
